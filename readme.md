@@ -1,8 +1,8 @@
-# 1.0.0 Klang - the newest language better than Python and C++ !
+# Klang - a new interpreted language dominating every other in fast pace!
 
 **General information:**
 <br>
-Klang is a **high level**, **dynamically typed**, **interpreted** language that has a syntax combining Python and C++ inhereting strengths from both languages resulting in being the best!
+Klang is a **high level**, **dynamically typed**, **built on Python**, **interpreted** language that has a syntax combining Python and C++ inhereting strengths from both languages resulting in being the best!
 
 
 **Features:**
@@ -49,9 +49,9 @@ Klang is a **high level**, **dynamically typed**, **interpreted** language that 
 
 **Resources**
 <br>
-• 20% of knowldege: https://www.youtube.com/watch?v=1WpKsY9LBlY.
+• 40% of knowldege: YouTube course https://www.youtube.com/watch?v=1WpKsY9LBlY.
 <br>
-• 80% of knowledge: AI chatbot Gemini.
+• 60% of knowledge: AI chatbot Gemini https://gemini.google.com.
 
 **Credit**
 <br>
