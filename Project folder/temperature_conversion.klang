@@ -1,0 +1,34 @@
+print("--- Klang Temperature Converter ---")
+
+var running = true
+
+while (running) {
+    print("1. Celsius to Fahrenheit")
+    print("2. Fahrenheit to Celsius")
+    print("3. Exit")
+    
+    var choice = input("Select conversion (1-3): ")
+
+    if (choice == 1) {
+        var c = input("Enter temperature in Celsius: ")
+        // Formula: (C * 9/5) + 32
+        var f = (c * 1.8) + 32
+        print("{c}°C is equal to {f}°F")
+    } 
+    else if (choice == 2) {
+        var f = input("Enter temperature in Fahrenheit: ")
+        // Formula: (F - 32) * 5/9
+        var c = (f - 32) / 1.8
+        print("{f}°F is equal to {c}°C")
+    } 
+    else if (choice == 3) {
+        running = false
+    } 
+    else {
+        print("Invalid selection!")
+    }
+    
+    print("--------------------------------")
+}
+
+print("Stay cool! Goodbye.")
