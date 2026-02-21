@@ -1,0 +1,42 @@
+print("--- Klang Interactive Calculator ---")
+print("Type 'exit' to quit")
+
+var running = true
+
+while (running) {
+    var op = input("Enter operator (+, -, *, /) or 'exit': ")
+    
+    if (op == "exit") {
+        running = false
+    } else {
+        var num1 = input("Enter first number: ")
+        var num2 = input("Enter second number: ")
+        
+        var result = 0
+        var valid = true
+
+        if (op == "+") {
+            result = num1 + num2
+        } else if (op == "-") {
+            result = num1 - num2
+        } else if (op == "*") {
+            result = num1 * num2
+        } else if (op == "/") {
+            if (num2 == 0) {
+                print("Error: Division by zero!")
+                valid = false
+            } else {
+                result = num1 / num2
+            }
+        } else {
+            print("Unknown operator!")
+            valid = false
+        }
+
+        if (valid) {
+            print("Result: {result}")
+        }
+    }
+}
+
+print("Goodbye!")
